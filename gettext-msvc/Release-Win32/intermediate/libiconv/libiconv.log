@@ -1,0 +1,22 @@
+﻿生成启动时间为 2017/3/27 15:42:57。
+     1>项目“D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\libiconv-1.14\libiconv.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I. /I.\lib /I.\include /Zi /nologo /W3 /WX- /Ox /Ob2 /Oy- /GL /D BUILDING_LIBICONV /D BUILDING_DLL /D PIC /D HAVE_CONFIG_H /D ENABLE_RELOCATABLE=1 /D IN_LIBRARY /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libiconv\\" /Fd"D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libiconv\libiconv.pdb" /Gd /TC /analyze- /errorReport:prompt lib\iconv.c lib\relocatable.c libcharset\lib\localcharset.c
+         iconv.c
+     1>D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\libiconv-1.14\iconv.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>lib\iconv.c(427): warning C4090: “函数”: 不同的“const”限定符
+         relocatable.c
+         localcharset.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\libiconv.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\libiconv.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\libiconv.lib" /MACHINE:X86 /SAFESEH /DLL "D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libiconv\iconv.obj"
+         "D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libiconv\relocatable.obj"
+         "D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libiconv\localcharset.obj"
+            正在创建库 D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\libiconv.lib 和对象 D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\libiconv.exp
+         正在生成代码
+         已完成代码的生成
+         libiconv.vcxproj -> D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\libiconv.dll
+     1>已完成生成项目“D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\libiconv-1.14\libiconv.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.49

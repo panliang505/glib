@@ -1,0 +1,100 @@
+﻿生成启动时间为 2017/3/27 15:50:00。
+     1>项目“D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\gettext-0.19.4\libintl.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I. /I".\gettext-runtime" /I"..\libiconv-1.14" /Zi /nologo /W3 /WX- /Ox /Ob2 /Oy- /GL /D BUILDING_LIBINTL /D BUILDING_DLL /D IN_LIBINTL /D ENABLE_RELOCATABLE=1 /D IN_LIBRARY /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libintl\\" /Fd"D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libintl\libintl.pdb" /Gd /TC /analyze- /errorReport:prompt "gettext-runtime\intl\bindtextdom.c" "gettext-runtime\intl\dcgettext.c" "gettext-runtime\intl\dcigettext.c" "gettext-runtime\intl\dcngettext.c" "gettext-runtime\intl\dgettext.c" "gettext-runtime\intl\dngettext.c" "gettext-runtime\intl\finddomain.c" "gettext-runtime\intl\gettext.c" "gettext-runtime\intl\intl-compat.c" "gettext-runtime\intl\loadmsgcat.c" "gettext-runtime\intl\localealias.c" "gettext-runtime\intl\localename.c" "gettext-runtime\intl\ngettext.c" "gettext-runtime\intl\setlocale.c" "gettext-runtime\intl\textdomain.c"
+         bindtextdom.c
+     1>D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\libiconv-1.14\iconv.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         dcgettext.c
+     1>D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\libiconv-1.14\iconv.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         dcigettext.c
+     1>D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\libiconv-1.14\iconv.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         dcngettext.c
+     1>D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\libiconv-1.14\iconv.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         dgettext.c
+     1>D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\libiconv-1.14\iconv.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>gettext-runtime\intl\dgettext.c(50): warning C4013: “libintl_dcgettext”未定义；假设外部返回 int
+     1>gettext-runtime\intl\dgettext.c(50): warning C4047: “return”:“char *”与“int”的间接级别不同
+         dngettext.c
+     1>D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\libiconv-1.14\iconv.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>gettext-runtime\intl\dngettext.c(51): warning C4013: “libintl_dcngettext”未定义；假设外部返回 int
+     1>gettext-runtime\intl\dngettext.c(51): warning C4047: “return”:“char *”与“int”的间接级别不同
+         finddomain.c
+     1>D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\libiconv-1.14\iconv.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         gettext.c
+     1>D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\libiconv-1.14\iconv.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>gettext-runtime\intl\gettext.c(55): warning C4013: “libintl_dcgettext”未定义；假设外部返回 int
+     1>gettext-runtime\intl\gettext.c(55): warning C4047: “return”:“char *”与“int”的间接级别不同
+         intl-compat.c
+     1>D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\libiconv-1.14\iconv.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>gettext-runtime\intl\intl-compat.c(63): warning C4013: “libintl_gettext”未定义；假设外部返回 int
+     1>gettext-runtime\intl\intl-compat.c(63): warning C4047: “return”:“char *”与“int”的间接级别不同
+     1>gettext-runtime\intl\intl-compat.c(71): warning C4013: “libintl_dgettext”未定义；假设外部返回 int
+     1>gettext-runtime\intl\intl-compat.c(71): warning C4047: “return”:“char *”与“int”的间接级别不同
+     1>gettext-runtime\intl\intl-compat.c(79): warning C4013: “libintl_dcgettext”未定义；假设外部返回 int
+     1>gettext-runtime\intl\intl-compat.c(79): warning C4047: “return”:“char *”与“int”的间接级别不同
+     1>gettext-runtime\intl\intl-compat.c(87): warning C4013: “libintl_ngettext”未定义；假设外部返回 int
+     1>gettext-runtime\intl\intl-compat.c(87): warning C4047: “return”:“char *”与“int”的间接级别不同
+     1>gettext-runtime\intl\intl-compat.c(96): warning C4013: “libintl_dngettext”未定义；假设外部返回 int
+     1>gettext-runtime\intl\intl-compat.c(96): warning C4047: “return”:“char *”与“int”的间接级别不同
+     1>gettext-runtime\intl\intl-compat.c(106): warning C4013: “libintl_dcngettext”未定义；假设外部返回 int
+     1>gettext-runtime\intl\intl-compat.c(106): warning C4047: “return”:“char *”与“int”的间接级别不同
+     1>gettext-runtime\intl\intl-compat.c(114): warning C4013: “libintl_textdomain”未定义；假设外部返回 int
+     1>gettext-runtime\intl\intl-compat.c(114): warning C4047: “return”:“char *”与“int”的间接级别不同
+     1>gettext-runtime\intl\intl-compat.c(122): warning C4013: “libintl_bindtextdomain”未定义；假设外部返回 int
+     1>gettext-runtime\intl\intl-compat.c(122): warning C4047: “return”:“char *”与“int”的间接级别不同
+     1>gettext-runtime\intl\intl-compat.c(130): warning C4013: “libintl_bind_textdomain_codeset”未定义；假设外部返回 int
+     1>gettext-runtime\intl\intl-compat.c(130): warning C4047: “return”:“char *”与“int”的间接级别不同
+         loadmsgcat.c
+     1>D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\libiconv-1.14\iconv.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         localealias.c
+     1>D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\libiconv-1.14\iconv.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         localename.c
+     1>D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\libiconv-1.14\iconv.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         ngettext.c
+     1>D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\libiconv-1.14\iconv.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>gettext-runtime\intl\ngettext.c(57): warning C4013: “libintl_dcngettext”未定义；假设外部返回 int
+     1>gettext-runtime\intl\ngettext.c(57): warning C4047: “return”:“char *”与“int”的间接级别不同
+         setlocale.c
+     1>D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\libiconv-1.14\iconv.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         textdomain.c
+     1>D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\libiconv-1.14\iconv.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\libintl.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\libintl.pdb" /SUBSYSTEM:WINDOWS,"5.01" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\libintl.lib" /MACHINE:X86 /SAFESEH /DLL "D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libintl\bindtextdom.obj"
+         "D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libintl\dcgettext.obj"
+         "D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libintl\dcigettext.obj"
+         "D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libintl\dcngettext.obj"
+         "D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libintl\dgettext.obj"
+         "D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libintl\dngettext.obj"
+         "D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libintl\explodename.obj"
+         "D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libintl\finddomain.obj"
+         "D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libintl\gettext.obj"
+         "D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libintl\hash-string.obj"
+         "D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libintl\intl-compat.obj"
+         "D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libintl\l10nflist.obj"
+         "D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libintl\langprefs.obj"
+         "D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libintl\loadmsgcat.obj"
+         "D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libintl\localcharset.obj"
+         "D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libintl\localealias.obj"
+         "D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libintl\localename.obj"
+         "D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libintl\lock.obj"
+         "D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libintl\log.obj"
+         "D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libintl\ngettext.obj"
+         "D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libintl\osdep.obj"
+         "D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libintl\plural-exp.obj"
+         "D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libintl\plural.obj"
+         "D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libintl\printf.obj"
+         "D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libintl\relocatable.obj"
+         "D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libintl\setlocale.obj"
+         "D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libintl\textdomain.obj"
+         "D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libintl\version.obj"
+         "D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\intermediate\libintl\xsize.obj"
+         "D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\libiconv.lib"
+            正在创建库 D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\libintl.lib 和对象 D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\libintl.exp
+         正在生成代码
+         已完成代码的生成
+         libintl.vcxproj -> D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\Release-Win32\libintl.dll
+     1>已完成生成项目“D:\myfiles\cairo_prj_win\thrid-party\gettext-msvc\gettext-0.19.4\libintl.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.41
