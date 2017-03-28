@@ -1,0 +1,87 @@
+Hmm...  Looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -ipuwr --binary --strip-trailing-cr -x '*.bak' -x '*.orig' -x '*.rej' -x '*.new' -x '*~' -x debian -x '*.po' -x '*.pot' pcre-6.5-orig/Makefile.in pcre-6.5-src/Makefile.in
+|--- pcre-6.5-orig/Makefile.in	2006-02-02 12:04:11.000000000 +0100
+|+++ pcre-6.5-src/Makefile.in	2006-02-05 11:29:41.140625000 +0100
+--------------------------
+Patching file Makefile.in using Plan A...
+Hunk #1 succeeded at 22.
+Hunk #2 succeeded at 33.
+Hunk #3 succeeded at 68.
+Hunk #4 FAILED at 110.
+Hunk #5 succeeded at 148 (offset 1 line).
+Hunk #6 succeeded at 170 (offset 2 lines).
+Hunk #7 FAILED at 237.
+Hunk #8 succeeded at 453 (offset 8 lines).
+Hunk #9 succeeded at 472 (offset 8 lines).
+Hunk #10 succeeded at 493 (offset 8 lines).
+Hunk #11 FAILED at 518.
+Hunk #12 succeeded at 584 (offset 10 lines).
+Hunk #13 succeeded at 649 (offset 14 lines).
+Hunk #14 succeeded at 666 (offset 14 lines).
+Not setting time of file Makefile.in (time mismatch)
+3 out of 14 hunks FAILED -- saving rejects to file Makefile.in.rej
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -ipuwr --binary --strip-trailing-cr -x '*.bak' -x '*.orig' -x '*.rej' -x '*.new' -x '*~' -x debian -x '*.po' -x '*.pot' pcre-6.5-orig/RunGrepTest.in pcre-6.5-src/RunGrepTest.in
+|--- pcre-6.5-orig/RunGrepTest.in	2006-02-02 12:04:11.000000000 +0100
+|+++ pcre-6.5-src/RunGrepTest.in	2006-02-05 11:19:43.781250000 +0100
+--------------------------
+Patching file RunGrepTest.in using Plan A...
+Hunk #1 succeeded at 3.
+Hunk #2 succeeded at 15.
+Hunk #3 succeeded at 31 with fuzz 1 (offset 3 lines).
+Not setting time of file RunGrepTest.in (time mismatch)
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -ipuwr --binary --strip-trailing-cr -x '*.bak' -x '*.orig' -x '*.rej' -x '*.new' -x '*~' -x debian -x '*.po' -x '*.pot' pcre-6.5-orig/RunTest.in pcre-6.5-src/RunTest.in
+|--- pcre-6.5-orig/RunTest.in	2006-02-02 12:04:11.000000000 +0100
+|+++ pcre-6.5-src/RunTest.in	2006-02-05 11:17:46.312500000 +0100
+--------------------------
+Patching file RunTest.in using Plan A...
+Hunk #1 succeeded at 8.
+Hunk #2 succeeded at 107.
+Hunk #3 FAILED at 128.
+Hunk #4 succeeded at 148.
+Hunk #5 succeeded at 173.
+Hunk #6 succeeded at 186.
+Hunk #7 succeeded at 203.
+Hunk #8 succeeded at 221.
+Hunk #9 succeeded at 233.
+Hunk #10 succeeded at 245.
+Not setting time of file RunTest.in (time mismatch)
+1 out of 10 hunks FAILED -- saving rejects to file RunTest.in.rej
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -ipuwr --binary --strip-trailing-cr -x '*.bak' -x '*.orig' -x '*.rej' -x '*.new' -x '*~' -x debian -x '*.po' -x '*.pot' pcre-6.5-orig/configure pcre-6.5-src/configure
+|--- pcre-6.5-orig/configure	2006-02-02 12:04:11.000000000 +0100
+|+++ pcre-6.5-src/configure	2006-02-04 12:53:44.859375000 +0100
+--------------------------
+Patching file configure using Plan A...
+Hunk #1 succeeded at 1925 (offset 416 lines).
+Not setting time of file configure (time mismatch)
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -ipuwr --binary --strip-trailing-cr -x '*.bak' -x '*.orig' -x '*.rej' -x '*.new' -x '*~' -x debian -x '*.po' -x '*.pot' pcre-6.5-orig/pcre-config.in pcre-6.5-src/pcre-config.in
+|--- pcre-6.5-orig/pcre-config.in	2006-02-02 12:04:11.000000000 +0100
+|+++ pcre-6.5-src/pcre-config.in	2006-02-04 12:53:44.875000000 +0100
+--------------------------
+Patching file pcre-config.in using Plan A...
+Hunk #1 succeeded at 52.
+Not setting time of file pcre-config.in (time mismatch)
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -ipuwr --binary --strip-trailing-cr -x '*.bak' -x '*.orig' -x '*.rej' -x '*.new' -x '*~' -x debian -x '*.po' -x '*.pot' pcre-6.5-orig/pcrecpp.cc pcre-6.5-src/pcrecpp.cc
+|--- pcre-6.5-orig/pcrecpp.cc	2006-02-02 12:04:11.000000000 +0100
+|+++ pcre-6.5-src/pcrecpp.cc	2006-02-04 12:53:44.875000000 +0100
+--------------------------
+Patching file pcrecpp.cc using Plan A...
+Hunk #1 succeeded at 41.
+Not setting time of file pcrecpp.cc (time mismatch)
+done

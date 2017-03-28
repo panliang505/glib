@@ -1,0 +1,38 @@
+﻿生成启动时间为 2017/3/20 9:29:18。
+     1>项目“D:\myfiles\codes\githup\C_C++\inkscape\cairo\cairo\cairo_prj_win\zlib125\zlib-1.2.5\contrib\vstudio\vc10\zlibvc.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“x86\ZlibDllRelease\Tmp\zlibvc.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+       ResourceCompile:
+         所有输出均为最新。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\myfiles\codes\githup\C_C++\inkscape\cairo\cairo\cairo_prj_win\zlib125\zlib-1.2.5\contrib\vstudio\vc10\x86\ZlibDllRelease\zlibvc.dll) 与 Linker 的 OutputFile 属性值(D:\myfiles\codes\githup\C_C++\inkscape\cairo\cairo\cairo_prj_win\zlib125\zlib-1.2.5\contrib\vstudio\vc10\x86\ZlibDllRelease\zlibwapi.dll)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(zlibvc) 与 Linker 的 OutputFile 属性值(zlibwapi)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"x86\ZlibDllRelease\zlibwapi.dll" /INCREMENTAL:NO /NOLOGO ..\..\masmx86\match686.obj ..\..\masmx86\inffas32.obj kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\zlibvc.def" /MANIFEST:NO /PDB:"x86\ZlibDllRelease\zlibwapi.pdb" /MAP:"x86\ZlibDllRelease\zlibwapi.map" /SUBSYSTEM:WINDOWS /LTCG /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"x86\ZlibDllRelease\zlibwapi.lib" /MACHINE:X86 /DLL x86\ZlibDllRelease\Tmp\zlib.res
+         x86\ZlibDllRelease\Tmp\adler32.obj
+         x86\ZlibDllRelease\Tmp\compress.obj
+         x86\ZlibDllRelease\Tmp\crc32.obj
+         x86\ZlibDllRelease\Tmp\deflate.obj
+         x86\ZlibDllRelease\Tmp\gzclose.obj
+         x86\ZlibDllRelease\Tmp\gzlib.obj
+         x86\ZlibDllRelease\Tmp\gzread.obj
+         x86\ZlibDllRelease\Tmp\gzwrite.obj
+         x86\ZlibDllRelease\Tmp\infback.obj
+         x86\ZlibDllRelease\Tmp\inffast.obj
+         x86\ZlibDllRelease\Tmp\inflate.obj
+         x86\ZlibDllRelease\Tmp\inftrees.obj
+         x86\ZlibDllRelease\Tmp\ioapi.obj
+         x86\ZlibDllRelease\Tmp\iowin32.obj
+         x86\ZlibDllRelease\Tmp\trees.obj
+         x86\ZlibDllRelease\Tmp\uncompr.obj
+         x86\ZlibDllRelease\Tmp\unzip.obj
+         x86\ZlibDllRelease\Tmp\zip.obj
+         x86\ZlibDllRelease\Tmp\zutil.obj /MACHINE:I386 
+     1>LINK : fatal error LNK1181: 无法打开输入文件“..\..\masmx86\match686.obj”
+     1>已完成生成项目“D:\myfiles\codes\githup\C_C++\inkscape\cairo\cairo\cairo_prj_win\zlib125\zlib-1.2.5\contrib\vstudio\vc10\zlibvc.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.09

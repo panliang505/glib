@@ -1,0 +1,2 @@
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v120:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit
+Release|Win32|D:\myfiles\cairo_prj_win\thrid-party\pcre-7.0-src\src\pcre\7.0\pcre-7.0-src\pcre\|

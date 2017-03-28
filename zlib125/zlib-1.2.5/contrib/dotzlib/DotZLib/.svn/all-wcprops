@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MyFzuProj/!svn/ver/2/trunk/OgreSceneEditor/zlib125/zlib-1.2.5/contrib/dotzlib/DotZLib
+END
+AssemblyInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/MyFzuProj/!svn/ver/2/trunk/OgreSceneEditor/zlib125/zlib-1.2.5/contrib/dotzlib/DotZLib/AssemblyInfo.cs
+END
+CircularBuffer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MyFzuProj/!svn/ver/2/trunk/OgreSceneEditor/zlib125/zlib-1.2.5/contrib/dotzlib/DotZLib/CircularBuffer.cs
+END
+DotZLib.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/MyFzuProj/!svn/ver/2/trunk/OgreSceneEditor/zlib125/zlib-1.2.5/contrib/dotzlib/DotZLib/DotZLib.csproj
+END
+UnitTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MyFzuProj/!svn/ver/2/trunk/OgreSceneEditor/zlib125/zlib-1.2.5/contrib/dotzlib/DotZLib/UnitTests.cs
+END
+ChecksumImpl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/MyFzuProj/!svn/ver/2/trunk/OgreSceneEditor/zlib125/zlib-1.2.5/contrib/dotzlib/DotZLib/ChecksumImpl.cs
+END
+Inflater.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MyFzuProj/!svn/ver/2/trunk/OgreSceneEditor/zlib125/zlib-1.2.5/contrib/dotzlib/DotZLib/Inflater.cs
+END
+GZipStream.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/MyFzuProj/!svn/ver/2/trunk/OgreSceneEditor/zlib125/zlib-1.2.5/contrib/dotzlib/DotZLib/GZipStream.cs
+END
+Deflater.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MyFzuProj/!svn/ver/2/trunk/OgreSceneEditor/zlib125/zlib-1.2.5/contrib/dotzlib/DotZLib/Deflater.cs
+END
+DotZLib.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MyFzuProj/!svn/ver/2/trunk/OgreSceneEditor/zlib125/zlib-1.2.5/contrib/dotzlib/DotZLib/DotZLib.cs
+END
+CodecBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MyFzuProj/!svn/ver/2/trunk/OgreSceneEditor/zlib125/zlib-1.2.5/contrib/dotzlib/DotZLib/CodecBase.cs
+END

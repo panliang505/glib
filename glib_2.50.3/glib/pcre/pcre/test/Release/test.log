@@ -1,0 +1,12 @@
+﻿生成启动时间为 2017/3/27 16:19:30。
+     1>项目“D:\myfiles\cairo_prj_win\thrid-party\pcre-7.0-src\src\pcre\7.0\pcre-7.0-src\pcre\test\test.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\myfiles\cairo_prj_win\thrid-party\pcre-7.0-src\src\pcre\7.0\pcre-7.0-src\pcre\Release\test.exe" /NOLOGO /LIBPATH:../Release pcre.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\myfiles\cairo_prj_win\thrid-party\pcre-7.0-src\src\pcre\7.0\pcre-7.0-src\pcre\Release\test.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\myfiles\cairo_prj_win\thrid-party\pcre-7.0-src\src\pcre\7.0\pcre-7.0-src\pcre\Release\test.lib" /MACHINE:X86 /SAFESEH Release\test.obj
+         正在生成代码
+         已完成代码的生成
+         test.vcxproj -> D:\myfiles\cairo_prj_win\thrid-party\pcre-7.0-src\src\pcre\7.0\pcre-7.0-src\pcre\Release\test.exe
+     1>已完成生成项目“D:\myfiles\cairo_prj_win\thrid-party\pcre-7.0-src\src\pcre\7.0\pcre-7.0-src\pcre\test\test.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.79

@@ -1,0 +1,130 @@
+Determining if the include file stdint.h exists failed with the following output:
+Change Dir: F:/OgreSceneEditor/zlib125/zlib-1.2.5/CMakeFiles/CMakeTmp
+
+Run Build Command:E:\VISUAL~1\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec
+
+Microsoft (R) Visual Studio 9.0.30729.1 版。
+版权所有(C) Microsoft Corp。保留所有权利。
+1>------ 已启动生成: 项目: cmTryCompileExec, 配置: Debug Win32 ------
+1>正在编译...
+1>用于 80x86 的 Microsoft (R) 32 位 C/C++ 优化编译器 15.00.30729.01 版
+1>版权所有(C) Microsoft Corporation。保留所有权利。
+1>cl /Od /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTryCompileExec.dir\Debug\\" /Fd"F:\OgreSceneEditor\zlib125\zlib-1.2.5\CMakeFiles\CMakeTmp\Debug/cmTryCompileExec.pdb" /W3 /c /Zi /TC   /Zm1000
+1>   ".\CheckIncludeFile.c"
+1>CheckIncludeFile.c
+1>.\CheckIncludeFile.c(1) : fatal error C1083: 无法打开包括文件:“stdint.h”: No such file or directory
+1>生成日志保存在“file://f:\OgreSceneEditor\zlib125\zlib-1.2.5\CMakeFiles\CMakeTmp\cmTryCompileExec.dir\Debug\BuildLog.htm”
+1>cmTryCompileExec - 1 个错误，0 个警告
+========== 生成: 成功 0 个，失败 1 个，最新 0 个，跳过 0 个 ==========
+
+
+Determining size of off64_t failed with the following output:
+Change Dir: F:/OgreSceneEditor/zlib125/zlib-1.2.5/CMakeFiles/CMakeTmp
+
+Run Build Command:E:\VISUAL~1\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec
+
+Microsoft (R) Visual Studio 9.0.30729.1 版。
+版权所有(C) Microsoft Corp。保留所有权利。
+1>------ 已启动生成: 项目: cmTryCompileExec, 配置: Debug Win32 ------
+1>正在编译...
+1>用于 80x86 的 Microsoft (R) 32 位 C/C++ 优化编译器 15.00.30729.01 版
+1>版权所有(C) Microsoft Corporation。保留所有权利。
+1>cl /Od /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "_LARGEFILE64_SOURCE=1" /D "HAVE_SYS_TYPES_H" /D "HAVE_STDDEF_H" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTryCompileExec.dir\Debug\\" /Fd"F:\OgreSceneEditor\zlib125\zlib-1.2.5\CMakeFiles\CMakeTmp\Debug/cmTryCompileExec.pdb" /W3 /c /Zi /TC   /Zm1000
+1>   "..\CheckTypeSize\OFF64_T.c"
+1>OFF64_T.c
+1>..\CheckTypeSize\OFF64_T.c(18) : error C2065: “off64_t”: 未声明的标识符
+1>..\CheckTypeSize\OFF64_T.c(19) : error C2065: “off64_t”: 未声明的标识符
+1>..\CheckTypeSize\OFF64_T.c(20) : error C2065: “off64_t”: 未声明的标识符
+1>..\CheckTypeSize\OFF64_T.c(21) : error C2065: “off64_t”: 未声明的标识符
+1>..\CheckTypeSize\OFF64_T.c(22) : error C2065: “off64_t”: 未声明的标识符
+1>生成日志保存在“file://f:\OgreSceneEditor\zlib125\zlib-1.2.5\CMakeFiles\CMakeTmp\cmTryCompileExec.dir\Debug\BuildLog.htm”
+1>cmTryCompileExec - 5 个错误，0 个警告
+========== 生成: 成功 0 个，失败 1 个，最新 0 个，跳过 0 个 ==========
+
+F:/OgreSceneEditor/zlib125/zlib-1.2.5/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function fseeko exists failed with the following output:
+Change Dir: F:/OgreSceneEditor/zlib125/zlib-1.2.5/CMakeFiles/CMakeTmp
+
+Run Build Command:E:\VISUAL~1\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec
+
+Microsoft (R) Visual Studio 9.0.30729.1 版。
+版权所有(C) Microsoft Corp。保留所有权利。
+1>------ 已启动生成: 项目: cmTryCompileExec, 配置: Debug Win32 ------
+1>正在编译...
+1>用于 80x86 的 Microsoft (R) 32 位 C/C++ 优化编译器 15.00.30729.01 版
+1>版权所有(C) Microsoft Corporation。保留所有权利。
+1>cl /Od /D "WIN32" /D "_WINDOWS" /D "CHECK_FUNCTION_EXISTS=fseeko" /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTryCompileExec.dir\Debug\\" /Fd"F:\OgreSceneEditor\zlib125\zlib-1.2.5\CMakeFiles\CMakeTmp\Debug/cmTryCompileExec.pdb" /W3 /c /Zi /TC   /Zm1000
+1>   "D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>CheckFunctionExists.c
+1>正在编译资源清单...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.1.6723.1
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>正在链接...
+1>CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 _fseeko，该符号在函数 _main 中被引用
+1>F:\OgreSceneEditor\zlib125\zlib-1.2.5\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe : fatal error LNK1120: 1 个无法解析的外部命令
+1>生成日志保存在“file://f:\OgreSceneEditor\zlib125\zlib-1.2.5\CMakeFiles\CMakeTmp\cmTryCompileExec.dir\Debug\BuildLog.htm”
+1>cmTryCompileExec - 2 个错误，0 个警告
+========== 生成: 成功 0 个，失败 1 个，最新 0 个，跳过 0 个 ==========
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: F:/OgreSceneEditor/zlib125/zlib-1.2.5/CMakeFiles/CMakeTmp
+
+Run Build Command:E:\VISUAL~1\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec
+
+Microsoft (R) Visual Studio 9.0.30729.1 版。
+版权所有(C) Microsoft Corp。保留所有权利。
+1>------ 已启动生成: 项目: cmTryCompileExec, 配置: Debug Win32 ------
+1>正在编译...
+1>用于 80x86 的 Microsoft (R) 32 位 C/C++ 优化编译器 15.00.30729.01 版
+1>版权所有(C) Microsoft Corporation。保留所有权利。
+1>cl /Od /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTryCompileExec.dir\Debug\\" /Fd"F:\OgreSceneEditor\zlib125\zlib-1.2.5\CMakeFiles\CMakeTmp\Debug/cmTryCompileExec.pdb" /W3 /c /Zi /TC   /Zm1000
+1>   ".\CheckIncludeFile.c"
+1>CheckIncludeFile.c
+1>.\CheckIncludeFile.c(1) : fatal error C1083: 无法打开包括文件:“unistd.h”: No such file or directory
+1>生成日志保存在“file://f:\OgreSceneEditor\zlib125\zlib-1.2.5\CMakeFiles\CMakeTmp\cmTryCompileExec.dir\Debug\BuildLog.htm”
+1>cmTryCompileExec - 1 个错误，0 个警告
+========== 生成: 成功 0 个，失败 1 个，最新 0 个，跳过 0 个 ==========
+
+
